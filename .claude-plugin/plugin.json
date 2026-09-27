@@ -1,0 +1,11 @@
+{
+  "name": "tsdoc",
+  "description": "Generate and improve TSDoc documentation comments on TypeScript code.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Karl Dreher"
+  },
+  "license": "MIT",
+  "keywords": ["typescript", "tsdoc", "documentation", "jsdoc"],
+  "skills": ["./tsdoc"]
+}
