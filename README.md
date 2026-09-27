@@ -6,15 +6,19 @@ Claude write and improve [TSDoc](https://tsdoc.org/) comments on TypeScript code
 
 ## Install
 
+### As a Claude Code plugin
+
 From a Claude Code session:
 
     /plugin marketplace add karldreher/tsdoc-skill
     /plugin install tsdoc@tsdoc-skill
 
-Or locally, from a clone of this repo:
+### With the `skills` CLI (any agent)
 
-    claude plugin marketplace add .
-    claude plugin install tsdoc@tsdoc-skill
+```sh
+bunx skills add karldreher/tsdoc-skill -s tsdoc
+```
+
 
 ## What it does
 
