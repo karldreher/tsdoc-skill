@@ -1,0 +1,14 @@
+{
+  "name": "tsdoc-skill",
+  "description": "Marketplace for the tsdoc plugin: helps Claude write and improve TSDoc comments on TypeScript code.",
+  "owner": {
+    "name": "Karl Dreher"
+  },
+  "plugins": [
+    {
+      "name": "tsdoc",
+      "source": ".",
+      "description": "Generate and improve TSDoc documentation comments on TypeScript classes, functions, methods, properties, and exported types/interfaces."
+    }
+  ]
+}
